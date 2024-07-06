@@ -1,0 +1,31 @@
+body{
+    background-image:url(../images/ai-generated-8529315_1280.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.col-md-4{
+    height: 500px;
+}
+#degree-hyoom{
+    font-size: 80px;
+}
+.navbar-brand{
+    font-size: 30px;
+    background: linear-gradient(to right, #005792, #53CDE2 );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.qnb{
+    padding-inline: 0px;
+}
+.nbe{
+    padding-inline: 0px;
+}
+.cib{
+    padding-inline: 0px;
+}
+.fss{
+    font-size: 50px;
+}

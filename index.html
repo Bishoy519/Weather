@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./Css/all.min.css">
+  <link rel="stylesheet" href="./Css/bootstrap.min.css">
+  <link rel="stylesheet" href="./Css/main.css">
+  <link rel="stylesheet" href="./Css/media.css">
+</head>
+
+<body>
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class=" px-3 navbar-brand" href="#">Weather Api</a>
+    </div>
+  </nav>
+
+  <section class="d-flex justify-content-center align-items-center flex-column text-white">
+
+
+    <div class="input-group mb-3 w-50 my-5">
+      <input id="hsbc" type="text" class="form-control rounded-start-5 px-3 py-3 " placeholder="Country/City"
+        aria-label="Recipient's username" aria-describedby="button-addon2">
+      <button class="btn btn-outline-info rounded-end-5 px-4" type="button" id="inpBtn">Search</button>
+    </div>
+
+    <div class="container  bg-dark opacity-75 p-2 border border-2 border-dark rounded-4 overflow-hidden">
+
+      <div class="row d-flex wra justify-content-center align-items-center text-center" id="holder">
+
+        <div class="col-md-4 cib">
+          <div class="inner border-end border-1 border-secondary p-5">
+            <div class="d-flex justify-content-between ">
+              <h6 class="p-0 m-0" id="hyoom">x</h6>
+              <h6 class="p-0 m-0" id="hyoom-spe">x</h6>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-center align-items-center flex-column">
+              <h4 class="align-self-start fw-bolder" id="city">x</h4>
+              <h1 id="degree-hyoom">x</h1>
+              <img id="icon" src="" alt="">
+            </div>
+
+            <h3 class="my-2 text-primary" id="condition">x</h3>
+            <div class="d-flex justify-content-evenly align-items-center py-5">
+              <i class="fa-solid fa-droplet fa-beat d-flex">
+                <h6 class="mx-2" id="humidity">x</h6>
+              </i>
+              <i class="fa-solid fa-wind d-flex">
+                <h6 class="mx-2" id="speed">x</h6>
+              </i>
+              <i class="fa-solid fa-compass d-flex">
+                <h6 class="mx-2" id="direction">x</h6>
+              </i>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-4 qnb">
+          <div class="inner border-end border-1 border-secondary p-5">
+            <div>
+              <h6 class="day-next fw-bold">x</h6>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-center align-items-center flex-column">
+              <img class="img-next my-3" src="" alt="">
+              <h1 class="max-deg-next fw-bolder fss my-4">26c</h1>
+              <h3 class="min-deg-next my-4 fs-2">27c</h3>
+              <h3 class="condition-next mt-5 text-primary">clear</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 nbe">
+          <div class="inner p-5">
+            <div>
+              <h6 class="day-next fw-bold">x</h6>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-center align-items-center flex-column">
+              <img class="img-next my-3" src="" alt="">
+              <h1 class="max-deg-next fss fw-bolder my-4">26c</h1>
+              <h3 class="min-deg-next fs-2  my-4">27c</h3>
+              <h3 class="condition-next mt-5 text-primary">clear</h3>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <script src="./javascript/bootstrap.bundle.min.js"></script>
+  <script src="./javascript/main.js"></script>
+</body>
+
+</html>
